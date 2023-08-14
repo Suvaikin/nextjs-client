@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 export default function FirstPost() {
-  const [data , setData]=useState('test')
+  const [data , setData]=useState('test1')
   useEffect( () => {
 
      async function fetchData() {
